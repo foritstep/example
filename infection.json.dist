@@ -1,0 +1,17 @@
+{
+    "timeout": 1800,
+    "source": {
+        "directories": [
+            "."
+        ],
+        "exclude": [
+            "vendor"
+        ]
+    },
+    "phpUnit": {
+        "configDir": "."
+    },
+    "logs": {
+        "text": "infection-log.txt"
+    }
+}

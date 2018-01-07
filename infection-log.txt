@@ -1,0 +1,2069 @@
+Escaped mutants:
+================
+
+
+1) /home/t/www3/Ranges.php:17    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.91ba52d4324d7c3be8ea9ce01dcbf299.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                    if ($i[0] - 1 == $id) {
++                    if ($i[0] - 0 == $id) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+...........                                                       11 / 11 (100%)
+
+Time: 32 ms, Memory: 4.00MB
+
+OK (11 tests, 11 assertions)
+
+
+2) /home/t/www3/Ranges.php:19    [M] GreaterThan
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.e5235f1ed7c61678b9960814374fb452.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                        if ($i[0] > $id) {
++                        if ($i[0] >= $id) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+...........                                                       11 / 11 (100%)
+
+Time: 35 ms, Memory: 4.00MB
+
+OK (11 tests, 11 assertions)
+
+
+3) /home/t/www3/tests/RangesTest.php:6    [M] PublicVisibility
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.3302b7f202822a286172fdc54fc6aaea.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-    public function test0()
++    protected function test0()
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+W..........                                                       11 / 11 (100%)
+
+Time: 65 ms, Memory: 4.00MB
+
+There was 1 warning:
+
+1) Warning
+Test method "test0" in test class "RangesTests" is not public.
+
+WARNINGS!
+Tests: 11, Assertions: 10, Warnings: 1.
+
+
+4) /home/t/www3/tests/RangesTest.php:10    [M] PublicVisibility
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.b3946eaa8e719312d6be86a74708ed7d.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-    public function test1()
++    protected function test1()
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+.W.........                                                       11 / 11 (100%)
+
+Time: 35 ms, Memory: 4.00MB
+
+There was 1 warning:
+
+1) Warning
+Test method "test1" in test class "RangesTests" is not public.
+
+WARNINGS!
+Tests: 11, Assertions: 10, Warnings: 1.
+
+
+5) /home/t/www3/tests/RangesTest.php:14    [M] PublicVisibility
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.88bcdb3a39eebbd47f274e798e99a2ab.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-    public function test2()
++    protected function test2()
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+..W........                                                       11 / 11 (100%)
+
+Time: 34 ms, Memory: 4.00MB
+
+There was 1 warning:
+
+1) Warning
+Test method "test2" in test class "RangesTests" is not public.
+
+WARNINGS!
+Tests: 11, Assertions: 10, Warnings: 1.
+
+
+6) /home/t/www3/tests/RangesTest.php:18    [M] PublicVisibility
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.3121b301d2939008b89887a5fee822f4.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-    public function test3()
++    protected function test3()
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+...W.......                                                       11 / 11 (100%)
+
+Time: 31 ms, Memory: 4.00MB
+
+There was 1 warning:
+
+1) Warning
+Test method "test3" in test class "RangesTests" is not public.
+
+WARNINGS!
+Tests: 11, Assertions: 10, Warnings: 1.
+
+
+7) /home/t/www3/tests/RangesTest.php:22    [M] PublicVisibility
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.7c630d7bb7a18f50aba4b0655e91b05c.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-    public function test4()
++    protected function test4()
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+....W......                                                       11 / 11 (100%)
+
+Time: 35 ms, Memory: 4.00MB
+
+There was 1 warning:
+
+1) Warning
+Test method "test4" in test class "RangesTests" is not public.
+
+WARNINGS!
+Tests: 11, Assertions: 10, Warnings: 1.
+
+
+8) /home/t/www3/tests/RangesTest.php:26    [M] PublicVisibility
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.7014bd6b43c03bef91dbd3d31171d8ef.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-    public function test5()
++    protected function test5()
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+.....W.....                                                       11 / 11 (100%)
+
+Time: 34 ms, Memory: 4.00MB
+
+There was 1 warning:
+
+1) Warning
+Test method "test5" in test class "RangesTests" is not public.
+
+WARNINGS!
+Tests: 11, Assertions: 10, Warnings: 1.
+
+
+9) /home/t/www3/tests/RangesTest.php:30    [M] PublicVisibility
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.fce924fe1bed864bd4cd819259c5c04a.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-    public function test6()
++    protected function test6()
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+......W....                                                       11 / 11 (100%)
+
+Time: 33 ms, Memory: 4.00MB
+
+There was 1 warning:
+
+1) Warning
+Test method "test6" in test class "RangesTests" is not public.
+
+WARNINGS!
+Tests: 11, Assertions: 10, Warnings: 1.
+
+
+10) /home/t/www3/tests/RangesTest.php:34    [M] PublicVisibility
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.c1d724c0a915fa3ae02a6c0e30f45368.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-    public function test7()
++    protected function test7()
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+.......W...                                                       11 / 11 (100%)
+
+Time: 31 ms, Memory: 4.00MB
+
+There was 1 warning:
+
+1) Warning
+Test method "test7" in test class "RangesTests" is not public.
+
+WARNINGS!
+Tests: 11, Assertions: 10, Warnings: 1.
+
+
+11) /home/t/www3/tests/RangesTest.php:38    [M] PublicVisibility
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.428c09347fd5fbf4cb75955dfd3e8baa.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-    public function test8()
++    protected function test8()
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+........W..                                                       11 / 11 (100%)
+
+Time: 34 ms, Memory: 4.00MB
+
+There was 1 warning:
+
+1) Warning
+Test method "test8" in test class "RangesTests" is not public.
+
+WARNINGS!
+Tests: 11, Assertions: 10, Warnings: 1.
+
+
+12) /home/t/www3/tests/RangesTest.php:42    [M] PublicVisibility
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.03de50a57dfc33ca85507b4156f1ff14.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-    public function test9()
++    protected function test9()
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+.........W.                                                       11 / 11 (100%)
+
+Time: 36 ms, Memory: 4.00MB
+
+There was 1 warning:
+
+1) Warning
+Test method "test9" in test class "RangesTests" is not public.
+
+WARNINGS!
+Tests: 11, Assertions: 10, Warnings: 1.
+
+
+13) /home/t/www3/tests/RangesTest.php:47    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.7d2c7597a5258628be2cdc64800ff2ac.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 1]], Ranges::addUsed([[1, 1]], 1));
++        $this->assertEquals([[1, 1]], Ranges::addUsed([[1, 0]], 1));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+...........                                                       11 / 11 (100%)
+
+Time: 32 ms, Memory: 4.00MB
+
+OK (11 tests, 11 assertions)
+
+
+14) /home/t/www3/tests/RangesTest.php:46    [M] PublicVisibility
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.ee722c37fda4a070e0f28f37e599c0bb.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-    public function test10()
++    protected function test10()
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+..........W                                                       11 / 11 (100%)
+
+Time: 36 ms, Memory: 4.00MB
+
+There was 1 warning:
+
+1) Warning
+Test method "test10" in test class "RangesTests" is not public.
+
+WARNINGS!
+Tests: 11, Assertions: 10, Warnings: 1.
+
+Timeout mutants:
+================
+
+Killed mutants:
+===============
+
+
+1) /home/t/www3/Ranges.php:7    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.8d322507d5e4017d73d3c4330bafb431.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                $l = count($out) - 1;
++                $l = count($out) - 0;
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+..E
+
+Time: 30 ms, Memory: 4.00MB
+
+There was 1 error:
+
+1) RangesTests::test2
+Undefined offset: 1
+
+/home/t/www3/Ranges.php:11
+/home/t/www3/Ranges.php:31
+/home/t/www3/tests/RangesTest.php:15
+
+ERRORS!
+Tests: 3, Assertions: 2, Errors: 1.
+
+
+2) /home/t/www3/Ranges.php:7    [M] Minus
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.cd4c3448ca76a20370a742db5baae98f.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                $l = count($out) - 1;
++                $l = count($out) + 1;
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+..E
+
+Time: 37 ms, Memory: 4.00MB
+
+There was 1 error:
+
+1) RangesTests::test2
+Undefined offset: 2
+
+/home/t/www3/Ranges.php:11
+/home/t/www3/Ranges.php:31
+/home/t/www3/tests/RangesTest.php:15
+
+ERRORS!
+Tests: 3, Assertions: 2, Errors: 1.
+
+
+3) /home/t/www3/Ranges.php:9    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.7da1ac465ad2495fdb9e793fa883bba9.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                if ($new[0] - $last[1] < 2) {
++                if ($new[1] - $last[1] < 2) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+....F
+
+Time: 35 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test4
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+         0 => 1
+-        1 => 4
++        1 => 2
+     )
++    1 => Array (...)
+
+/home/t/www3/tests/RangesTest.php:23
+
+FAILURES!
+Tests: 5, Assertions: 5, Failures: 1.
+
+
+4) /home/t/www3/Ranges.php:9    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.60162881ff17a5ebdfc4b6d68bc3ab63.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                if ($new[0] - $last[1] < 2) {
++                if ($new[0] - $last[0] < 2) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+....F
+
+Time: 31 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test4
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+         0 => 1
+-        1 => 4
++        1 => 2
+     )
++    1 => Array (...)
+
+/home/t/www3/tests/RangesTest.php:23
+
+FAILURES!
+Tests: 5, Assertions: 5, Failures: 1.
+
+
+5) /home/t/www3/Ranges.php:9    [M] Minus
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.e0ca3482486bba0ffcc15c95138f05fc.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                if ($new[0] - $last[1] < 2) {
++                if ($new[0] + $last[1] < 2) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+....F
+
+Time: 32 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test4
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+         0 => 1
+-        1 => 4
++        1 => 2
+     )
++    1 => Array (...)
+
+/home/t/www3/tests/RangesTest.php:23
+
+FAILURES!
+Tests: 5, Assertions: 5, Failures: 1.
+
+
+6) /home/t/www3/Ranges.php:9    [M] LessThan
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.b6e54a0cd4768a46e9ff66171bf2286e.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                if ($new[0] - $last[1] < 2) {
++                if ($new[0] - $last[1] <= 2) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+..F
+
+Time: 32 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test2
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+         0 => 1
+-        1 => 1
++        1 => 4
+     )
+-    1 => Array (...)
+
+/home/t/www3/tests/RangesTest.php:15
+
+FAILURES!
+Tests: 3, Assertions: 3, Failures: 1.
+
+
+7) /home/t/www3/Ranges.php:9    [M] LessThanNegotiation
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.d1954ee047985477721d4f6d3de91f41.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                if ($new[0] - $last[1] < 2) {
++                if ($new[0] - $last[1] >= 2) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+..F
+
+Time: 34 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test2
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+         0 => 1
+-        1 => 1
++        1 => 4
+     )
+-    1 => Array (...)
+
+/home/t/www3/tests/RangesTest.php:15
+
+FAILURES!
+Tests: 3, Assertions: 3, Failures: 1.
+
+
+8) /home/t/www3/Ranges.php:9    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.81d4dd49394604d549d09d7fdcbecaf9.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                    $out[$l][1] = $new[1];
++                    $out[$l][0] = $new[1];
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+....F
+
+Time: 31 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test4
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 1
+-        1 => 4
++        0 => 4
++        1 => 2
+
+/home/t/www3/tests/RangesTest.php:23
+
+FAILURES!
+Tests: 5, Assertions: 5, Failures: 1.
+
+
+9) /home/t/www3/Ranges.php:9    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.8d1148363c53491a59eb6ac469c6eb3f.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                    $out[$l][1] = $new[1];
++                    $out[$l][1] = $new[0];
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+....F
+
+Time: 56 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test4
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+         0 => 1
+-        1 => 4
++        1 => 3
+
+/home/t/www3/tests/RangesTest.php:23
+
+FAILURES!
+Tests: 5, Assertions: 5, Failures: 1.
+
+
+10) /home/t/www3/Ranges.php:15    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.f36f6ca1788f6541ca7fc5af69b5d323.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                if ($i[1] + 1 == $id) {
++                if ($i[0] + 1 == $id) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+......F
+
+Time: 51 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test6
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+         0 => 1
+-        1 => 3
++        1 => 2
+
+/home/t/www3/tests/RangesTest.php:31
+
+FAILURES!
+Tests: 7, Assertions: 7, Failures: 1.
+
+
+11) /home/t/www3/Ranges.php:15    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.18f858503b4b4810abdfd67bad04c2a8.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                if ($i[1] + 1 == $id) {
++                if ($i[1] + 0 == $id) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+F
+
+Time: 34 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test0
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+         0 => 1
+-        1 => 2
++        1 => 1
+
+/home/t/www3/tests/RangesTest.php:7
+
+FAILURES!
+Tests: 1, Assertions: 1, Failures: 1.
+
+
+12) /home/t/www3/Ranges.php:15    [M] Plus
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.fe118f2d7189836178ad83853688942a.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                if ($i[1] + 1 == $id) {
++                if ($i[1] - 1 == $id) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+F
+
+Time: 33 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test0
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+         0 => 1
+-        1 => 2
++        1 => 1
+
+/home/t/www3/tests/RangesTest.php:7
+
+FAILURES!
+Tests: 1, Assertions: 1, Failures: 1.
+
+
+13) /home/t/www3/Ranges.php:15    [M] Equal
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.25130dcb8cf020732ac354581907da1b.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                if ($i[1] + 1 == $id) {
++                if ($i[1] + 1 != $id) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+F
+
+Time: 30 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test0
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+         0 => 1
+-        1 => 2
++        1 => 1
+
+/home/t/www3/tests/RangesTest.php:7
+
+FAILURES!
+Tests: 1, Assertions: 1, Failures: 1.
+
+
+14) /home/t/www3/Ranges.php:16    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.60f68477116534e22bc87a609d007783.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                    $append([$i[0], $id]);
++                    $append([$i[1], $id]);
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+.....F
+
+Time: 33 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test5
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 1
++        0 => 2
+
+/home/t/www3/tests/RangesTest.php:27
+
+FAILURES!
+Tests: 6, Assertions: 6, Failures: 1.
+
+
+15) /home/t/www3/Ranges.php:17    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.fb0916c3a71d35ef07dd37b8848f3c39.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                    if ($i[0] - 1 == $id) {
++                    if ($i[1] - 1 == $id) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+.........F
+
+Time: 34 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test9
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 1
++        0 => 2
+
+/home/t/www3/tests/RangesTest.php:43
+
+FAILURES!
+Tests: 10, Assertions: 10, Failures: 1.
+
+
+16) /home/t/www3/Ranges.php:17    [M] Minus
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.e94d5ea887cf0f14b5f09c69ba9eb9b8.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                    if ($i[0] - 1 == $id) {
++                    if ($i[0] + 1 == $id) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+....F
+
+Time: 32 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test4
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+         0 => 1
+-        1 => 4
++        1 => 2
+     )
++    1 => Array (...)
+
+/home/t/www3/tests/RangesTest.php:23
+
+FAILURES!
+Tests: 5, Assertions: 5, Failures: 1.
+
+
+17) /home/t/www3/Ranges.php:17    [M] Equal
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.4a7e3316bf109e946d6272e776239bba.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                    if ($i[0] - 1 == $id) {
++                    if ($i[0] - 1 != $id) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+..F
+
+Time: 59 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test2
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+         0 => 1
+-        1 => 1
++        1 => 4
+     )
+-    1 => Array (...)
+
+/home/t/www3/tests/RangesTest.php:15
+
+FAILURES!
+Tests: 3, Assertions: 3, Failures: 1.
+
+
+18) /home/t/www3/Ranges.php:18    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.606ea24cfe414485f8528f2283ee8bb4.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                        $append([$id, $i[1]]);
++                        $append([$id, $i[0]]);
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+.F
+
+Time: 74 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test1
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+         0 => 1
+-        1 => 3
++        1 => 2
+
+/home/t/www3/tests/RangesTest.php:11
+
+FAILURES!
+Tests: 2, Assertions: 2, Failures: 1.
+
+
+19) /home/t/www3/Ranges.php:19    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.35bdd553430189b1b229a79c972d75cf.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                        if ($i[0] > $id) {
++                        if ($i[1] > $id) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+.........F
+
+Time: 45 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test9
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 1
++        0 => 2
+
+/home/t/www3/tests/RangesTest.php:43
+
+FAILURES!
+Tests: 10, Assertions: 10, Failures: 1.
+
+
+20) /home/t/www3/Ranges.php:19    [M] GreaterThanNegotiation
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.6b8a960b876c619338cab6dc6134c38b.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-                        if ($i[0] > $id) {
++                        if ($i[0] <= $id) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+..F
+
+Time: 36 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test2
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 1
+-        1 => 1
++        0 => 3
++        1 => 4
+     )
+-    1 => Array (...)
+
+/home/t/www3/tests/RangesTest.php:15
+
+FAILURES!
+Tests: 3, Assertions: 3, Failures: 1.
+
+
+21) /home/t/www3/Ranges.php:14    [M] Foreach_
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.b36083c0f7fc9ab83b94847351df4955.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-            foreach ($before as $i) {
++            foreach (array() as $i) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+E
+
+Time: 36 ms, Memory: 4.00MB
+
+There was 1 error:
+
+1) RangesTests::test0
+Undefined variable: i
+
+/home/t/www3/Ranges.php:38
+/home/t/www3/tests/RangesTest.php:7
+
+ERRORS!
+Tests: 1, Assertions: 0, Errors: 1.
+
+
+22) /home/t/www3/Ranges.php:26    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.d37f1a49ae59f210424d9844261e6433.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-            if ($id > $i[1] + 1) {
++            if ($id > $i[0] + 1) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+......F
+
+Time: 36 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test6
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (...)
++    1 => Array (...)
+
+/home/t/www3/tests/RangesTest.php:31
+
+FAILURES!
+Tests: 7, Assertions: 7, Failures: 1.
+
+
+23) /home/t/www3/Ranges.php:26    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.6117e3e825bdca60889d52096726e8d3.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-            if ($id > $i[1] + 1) {
++            if ($id > $i[1] + 0) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+F
+
+Time: 44 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test0
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (...)
++    1 => Array (...)
+
+/home/t/www3/tests/RangesTest.php:7
+
+FAILURES!
+Tests: 1, Assertions: 1, Failures: 1.
+
+
+24) /home/t/www3/Ranges.php:26    [M] Plus
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.acb58c8a0a881658d9f0332c0c29cbb1.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-            if ($id > $i[1] + 1) {
++            if ($id > $i[1] - 1) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+F
+
+Time: 35 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test0
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (...)
++    1 => Array (...)
+
+/home/t/www3/tests/RangesTest.php:7
+
+FAILURES!
+Tests: 1, Assertions: 1, Failures: 1.
+
+
+25) /home/t/www3/Ranges.php:26    [M] GreaterThan
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.5957cfcc8cf0b5d7f8964f6cf156a960.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-            if ($id > $i[1] + 1) {
++            if ($id >= $i[1] + 1) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+F
+
+Time: 32 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test0
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (...)
++    1 => Array (...)
+
+/home/t/www3/tests/RangesTest.php:7
+
+FAILURES!
+Tests: 1, Assertions: 1, Failures: 1.
+
+
+26) /home/t/www3/Ranges.php:26    [M] GreaterThanNegotiation
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.9927e7a5f7cb25a26a4c73459beaf8fe.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-            if ($id > $i[1] + 1) {
++            if ($id <= $i[1] + 1) {
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+F
+
+Time: 38 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test0
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (...)
++    1 => Array (...)
+
+/home/t/www3/tests/RangesTest.php:7
+
+FAILURES!
+Tests: 1, Assertions: 1, Failures: 1.
+
+
+27) /home/t/www3/Ranges.php:3    [M] PublicVisibility
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.5494fcafbd40b4fa79124b4265da9f75.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+ <?php
+ 
+ class Ranges
+ {
+-    public static function addUsed($before, $id)
++    protected static function addUsed($before, $id)
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+E
+
+Time: 33 ms, Memory: 4.00MB
+
+There was 1 error:
+
+1) RangesTests::test0
+Error: Call to protected method Ranges::addUsed() from context 'RangesTests'
+
+/home/t/www3/tests/RangesTest.php:7
+
+ERRORS!
+Tests: 1, Assertions: 0, Errors: 1.
+
+
+28) /home/t/www3/tests/RangesTest.php:7    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.e25211db3c3952e95c5f334ff38fc230.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 2]], Ranges::addUsed([[1, 1]], 2));
++        $this->assertEquals([[0, 2]], Ranges::addUsed([[1, 1]], 2));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+F
+
+Time: 39 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test0
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 0
++        0 => 1
+
+/home/t/www3/tests/RangesTest.php:9
+
+FAILURES!
+Tests: 1, Assertions: 1, Failures: 1.
+
+
+29) /home/t/www3/tests/RangesTest.php:7    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.1bca0969f49afb142c61724a77703f0a.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 2]], Ranges::addUsed([[1, 1]], 2));
++        $this->assertEquals([[1, 2]], Ranges::addUsed([[0, 1]], 2));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+F
+
+Time: 33 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test0
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 1
++        0 => 0
+
+/home/t/www3/tests/RangesTest.php:9
+
+FAILURES!
+Tests: 1, Assertions: 1, Failures: 1.
+
+
+30) /home/t/www3/tests/RangesTest.php:7    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.839c8adcae2ba36f89f2b0314332ba21.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 2]], Ranges::addUsed([[1, 1]], 2));
++        $this->assertEquals([[1, 2]], Ranges::addUsed([[1, 0]], 2));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+F
+
+Time: 89 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test0
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+         0 => 1
+-        1 => 2
++        1 => 0
+     )
++    1 => Array (...)
+
+/home/t/www3/tests/RangesTest.php:9
+
+FAILURES!
+Tests: 1, Assertions: 1, Failures: 1.
+
+
+31) /home/t/www3/tests/RangesTest.php:11    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.7c64d9fb7160a44a6d8a65e9dd0e0310.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 3]], Ranges::addUsed([[2, 3]], 1));
++        $this->assertEquals([[0, 3]], Ranges::addUsed([[2, 3]], 1));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+.F
+
+Time: 31 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test1
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 0
++        0 => 1
+
+/home/t/www3/tests/RangesTest.php:13
+
+FAILURES!
+Tests: 2, Assertions: 2, Failures: 1.
+
+
+32) /home/t/www3/tests/RangesTest.php:11    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.c13677171a396c976814fc4567996713.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 3]], Ranges::addUsed([[2, 3]], 1));
++        $this->assertEquals([[1, 3]], Ranges::addUsed([[2, 3]], 0));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+.F
+
+Time: 31 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test1
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 1
+-        1 => 3
++        0 => 0
++        1 => 0
+     )
++    1 => Array (...)
+
+/home/t/www3/tests/RangesTest.php:13
+
+FAILURES!
+Tests: 2, Assertions: 2, Failures: 1.
+
+
+33) /home/t/www3/tests/RangesTest.php:15    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.02ca9729deac327bd0d99b2cd356c12b.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 1], [3, 4]], Ranges::addUsed([[3, 4]], 1));
++        $this->assertEquals([[0, 1], [3, 4]], Ranges::addUsed([[3, 4]], 1));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+..F
+
+Time: 35 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test2
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 0
++        0 => 1
+
+/home/t/www3/tests/RangesTest.php:17
+
+FAILURES!
+Tests: 3, Assertions: 3, Failures: 1.
+
+
+34) /home/t/www3/tests/RangesTest.php:15    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.26f2bcc14ff6dfbaed2ef64f3ea02320.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 1], [3, 4]], Ranges::addUsed([[3, 4]], 1));
++        $this->assertEquals([[1, 0], [3, 4]], Ranges::addUsed([[3, 4]], 1));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+..F
+
+Time: 33 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test2
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+         0 => 1
+-        1 => 0
++        1 => 1
+
+/home/t/www3/tests/RangesTest.php:17
+
+FAILURES!
+Tests: 3, Assertions: 3, Failures: 1.
+
+
+35) /home/t/www3/tests/RangesTest.php:15    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.2024940afd5305ee194b82a1cd692ba6.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 1], [3, 4]], Ranges::addUsed([[3, 4]], 1));
++        $this->assertEquals([[1, 1], [3, 4]], Ranges::addUsed([[3, 4]], 0));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+..F
+
+Time: 35 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test2
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 1
+-        1 => 1
++        0 => 0
++        1 => 0
+
+/home/t/www3/tests/RangesTest.php:17
+
+FAILURES!
+Tests: 3, Assertions: 3, Failures: 1.
+
+
+36) /home/t/www3/tests/RangesTest.php:19    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.bf830581b8339d51e226af175da41738.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 2], [4, 4]], Ranges::addUsed([[1, 2]], 4));
++        $this->assertEquals([[0, 2], [4, 4]], Ranges::addUsed([[1, 2]], 4));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+...F
+
+Time: 31 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test3
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 0
++        0 => 1
+
+/home/t/www3/tests/RangesTest.php:21
+
+FAILURES!
+Tests: 4, Assertions: 4, Failures: 1.
+
+
+37) /home/t/www3/tests/RangesTest.php:19    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.fbf97b31710300f0972df7537e1ec161.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 2], [4, 4]], Ranges::addUsed([[1, 2]], 4));
++        $this->assertEquals([[1, 2], [4, 4]], Ranges::addUsed([[0, 2]], 4));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+...F
+
+Time: 34 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test3
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 1
++        0 => 0
+
+/home/t/www3/tests/RangesTest.php:21
+
+FAILURES!
+Tests: 4, Assertions: 4, Failures: 1.
+
+
+38) /home/t/www3/tests/RangesTest.php:23    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.8c676740b61c836dbff6979089a1f18e.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 4]], Ranges::addUsed([[1, 2], [3, 4]], 4));
++        $this->assertEquals([[0, 4]], Ranges::addUsed([[1, 2], [3, 4]], 4));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+....F
+
+Time: 35 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test4
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 0
++        0 => 1
+
+/home/t/www3/tests/RangesTest.php:25
+
+FAILURES!
+Tests: 5, Assertions: 5, Failures: 1.
+
+
+39) /home/t/www3/tests/RangesTest.php:23    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.da7ed6fcd5e49c3530bebc374f87ec47.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 4]], Ranges::addUsed([[1, 2], [3, 4]], 4));
++        $this->assertEquals([[1, 4]], Ranges::addUsed([[0, 2], [3, 4]], 4));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+....F
+
+Time: 34 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test4
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 1
++        0 => 0
+
+/home/t/www3/tests/RangesTest.php:25
+
+FAILURES!
+Tests: 5, Assertions: 5, Failures: 1.
+
+
+40) /home/t/www3/tests/RangesTest.php:27    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.fe403d99f58917f48ac5811cf48a3d91.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 5]], Ranges::addUsed([[1, 2], [4, 5]], 3));
++        $this->assertEquals([[0, 5]], Ranges::addUsed([[1, 2], [4, 5]], 3));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+.....F
+
+Time: 41 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test5
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 0
++        0 => 1
+
+/home/t/www3/tests/RangesTest.php:29
+
+FAILURES!
+Tests: 6, Assertions: 6, Failures: 1.
+
+
+41) /home/t/www3/tests/RangesTest.php:27    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.53acffcf908826dfeb4695034fcf1c86.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 5]], Ranges::addUsed([[1, 2], [4, 5]], 3));
++        $this->assertEquals([[1, 5]], Ranges::addUsed([[0, 2], [4, 5]], 3));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+.....F
+
+Time: 35 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test5
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 1
++        0 => 0
+
+/home/t/www3/tests/RangesTest.php:29
+
+FAILURES!
+Tests: 6, Assertions: 6, Failures: 1.
+
+
+42) /home/t/www3/tests/RangesTest.php:31    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.c97b2e0cbb4b649f6e1bd457e42e2885.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 3]], Ranges::addUsed([[1, 2]], 3));
++        $this->assertEquals([[0, 3]], Ranges::addUsed([[1, 2]], 3));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+......F
+
+Time: 31 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test6
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 0
++        0 => 1
+
+/home/t/www3/tests/RangesTest.php:33
+
+FAILURES!
+Tests: 7, Assertions: 7, Failures: 1.
+
+
+43) /home/t/www3/tests/RangesTest.php:31    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.c3f95b19e55790712a19a331cec3ce20.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 3]], Ranges::addUsed([[1, 2]], 3));
++        $this->assertEquals([[1, 3]], Ranges::addUsed([[0, 2]], 3));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+......F
+
+Time: 45 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test6
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 1
++        0 => 0
+
+/home/t/www3/tests/RangesTest.php:33
+
+FAILURES!
+Tests: 7, Assertions: 7, Failures: 1.
+
+
+44) /home/t/www3/tests/RangesTest.php:35    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.9549e8ab8a70ca7c6ed940d8fedfe9c1.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 2], [4, 4], [6, 7]], Ranges::addUsed([[1, 2], [6, 7]], 4));
++        $this->assertEquals([[0, 2], [4, 4], [6, 7]], Ranges::addUsed([[1, 2], [6, 7]], 4));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+.......F
+
+Time: 37 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test7
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 0
++        0 => 1
+
+/home/t/www3/tests/RangesTest.php:37
+
+FAILURES!
+Tests: 8, Assertions: 8, Failures: 1.
+
+
+45) /home/t/www3/tests/RangesTest.php:35    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.2ea0c032f8f48523932ee5223289a8c9.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 2], [4, 4], [6, 7]], Ranges::addUsed([[1, 2], [6, 7]], 4));
++        $this->assertEquals([[1, 2], [4, 4], [6, 7]], Ranges::addUsed([[0, 2], [6, 7]], 4));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+.......F
+
+Time: 31 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test7
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 1
++        0 => 0
+
+/home/t/www3/tests/RangesTest.php:37
+
+FAILURES!
+Tests: 8, Assertions: 8, Failures: 1.
+
+
+46) /home/t/www3/tests/RangesTest.php:39    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.b660cb8833285ca193363cb13dc3ad84.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 1]], Ranges::addUsed([], 1));
++        $this->assertEquals([[0, 1]], Ranges::addUsed([], 1));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+........F
+
+Time: 33 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test8
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 0
++        0 => 1
+
+/home/t/www3/tests/RangesTest.php:41
+
+FAILURES!
+Tests: 9, Assertions: 9, Failures: 1.
+
+
+47) /home/t/www3/tests/RangesTest.php:39    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.97a68b43765c5e64c8a588a5db3e9001.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 1]], Ranges::addUsed([], 1));
++        $this->assertEquals([[1, 0]], Ranges::addUsed([], 1));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+........F
+
+Time: 33 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test8
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+         0 => 1
+-        1 => 0
++        1 => 1
+
+/home/t/www3/tests/RangesTest.php:41
+
+FAILURES!
+Tests: 9, Assertions: 9, Failures: 1.
+
+
+48) /home/t/www3/tests/RangesTest.php:39    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.af4e3fd16fabe03cab523f06dc20ba2a.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 1]], Ranges::addUsed([], 1));
++        $this->assertEquals([[1, 1]], Ranges::addUsed([], 0));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+........F
+
+Time: 31 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test8
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 1
+-        1 => 1
++        0 => 0
++        1 => 0
+
+/home/t/www3/tests/RangesTest.php:41
+
+FAILURES!
+Tests: 9, Assertions: 9, Failures: 1.
+
+
+49) /home/t/www3/tests/RangesTest.php:43    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.4e86f6c8a8ca02535d95c7ee1f040439.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 3]], Ranges::addUsed([[1, 3]], 2));
++        $this->assertEquals([[0, 3]], Ranges::addUsed([[1, 3]], 2));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+.........F
+
+Time: 36 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test9
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 0
++        0 => 1
+
+/home/t/www3/tests/RangesTest.php:45
+
+FAILURES!
+Tests: 10, Assertions: 10, Failures: 1.
+
+
+50) /home/t/www3/tests/RangesTest.php:43    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.d9fd158386db91e8f7666e23354e5000.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 3]], Ranges::addUsed([[1, 3]], 2));
++        $this->assertEquals([[1, 3]], Ranges::addUsed([[0, 3]], 2));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+.........F
+
+Time: 38 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test9
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 1
++        0 => 0
+
+/home/t/www3/tests/RangesTest.php:45
+
+FAILURES!
+Tests: 10, Assertions: 10, Failures: 1.
+
+
+51) /home/t/www3/tests/RangesTest.php:47    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.d7985531112152aa69260a43c6143c01.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 1]], Ranges::addUsed([[1, 1]], 1));
++        $this->assertEquals([[0, 1]], Ranges::addUsed([[1, 1]], 1));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+..........F                                                       11 / 11 (100%)
+
+Time: 35 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test10
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 0
++        0 => 1
+
+/home/t/www3/tests/RangesTest.php:49
+
+FAILURES!
+Tests: 11, Assertions: 11, Failures: 1.
+
+
+52) /home/t/www3/tests/RangesTest.php:47    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.1e999abf41d23681cee83bf2a43b5cae.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 1]], Ranges::addUsed([[1, 1]], 1));
++        $this->assertEquals([[1, 0]], Ranges::addUsed([[1, 1]], 1));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+..........F                                                       11 / 11 (100%)
+
+Time: 36 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test10
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+         0 => 1
+-        1 => 0
++        1 => 1
+
+/home/t/www3/tests/RangesTest.php:49
+
+FAILURES!
+Tests: 11, Assertions: 11, Failures: 1.
+
+
+53) /home/t/www3/tests/RangesTest.php:47    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.b20a32a0e094f3dd9ffbf5c3e3e6c8c1.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 1]], Ranges::addUsed([[1, 1]], 1));
++        $this->assertEquals([[1, 1]], Ranges::addUsed([[0, 1]], 1));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+..........F                                                       11 / 11 (100%)
+
+Time: 33 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test10
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 1
++        0 => 0
+
+/home/t/www3/tests/RangesTest.php:49
+
+FAILURES!
+Tests: 11, Assertions: 11, Failures: 1.
+
+
+54) /home/t/www3/tests/RangesTest.php:47    [M] OneZeroInteger
+exec /usr/bin/php7.1 -c /tmp/infectionc5CvhK /home/t/www3/vendor/phpunit/phpunit/phpunit --configuration /tmp/infection/phpunitConfiguration.f5f70b2fd00996150902d05ca4f59a7e.infection.xml --stop-on-failure 
+--- Original
++++ New
+@@ @@
+-        $this->assertEquals([[1, 1]], Ranges::addUsed([[1, 1]], 1));
++        $this->assertEquals([[1, 1]], Ranges::addUsed([[1, 1]], 0));
+
+PHPUnit 6.5.5 by Sebastian Bergmann and contributors.
+
+..........F                                                       11 / 11 (100%)
+
+Time: 31 ms, Memory: 4.00MB
+
+There was 1 failure:
+
+1) RangesTests::test10
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     0 => Array (
+-        0 => 1
++        0 => 0
+
+/home/t/www3/tests/RangesTest.php:49
+
+FAILURES!
+Tests: 11, Assertions: 11, Failures: 1.
+
+Errors mutants:
+===============
+
+Not covered mutants:
+====================
